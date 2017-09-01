@@ -1,0 +1,8 @@
+body{
+    background-color: #1b192d;
+}
+#demo{
+    width: 1200px;
+    height: 280px;
+    margin:100px auto;
+}
