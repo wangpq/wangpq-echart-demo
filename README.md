@@ -181,4 +181,4 @@ legend: {
 lengend.data数组长度为多少，就有多少个数据需要展示。
 
 
-更多的的echarts配置用法可以查看官网 。
+更多的的echarts配置用法可以查看官网 [Echarts配置](http://echarts.baidu.com/option.html)。
