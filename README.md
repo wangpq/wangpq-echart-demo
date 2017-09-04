@@ -14,7 +14,7 @@ http://echarts.baidu.com/download-map.html
 
 http://ecomfe.github.io/echarts-map-tool/
 
-
+- - -
 **常见配置介绍**
 
 ```bash
@@ -26,7 +26,7 @@ grid: {
     containLabel: true
 }
 ```
-grid用于设置要绘制的chart距离盒子边框的距离
+grid用于设置要绘制的chart距离盒子边框的距离。
 
 
 ```bash
@@ -66,11 +66,12 @@ xAxis : [
     }
 ]
 ```
-xAxis用于设置要绘制的chart X轴的配置参数；
+xAxis用于设置要绘制的chart X轴的配置参数。
 
-name ：X轴的单位；
-data ：数据源；
-axisLine.lineStyle设置X轴横线的颜色；axisLabel.rotate 将X轴上文字旋转角度。
++ name ：X轴的单位；
++ data ：数据源；
++ axisLine.lineStyle设置X轴横线的颜色；
++ axisLabel.rotate 将X轴上文字旋转角度。
 
 
 ```bash
@@ -157,10 +158,10 @@ series: [
 ]
 ```
 折线图的一些设置参数：
-name ：为数据名称，与 lengend.data 里面的数据一一对应；
-lineStyle ：为折线图的基本样式；
-areaStyle ：为折线图包裹的区域的渐变色设置；
-smooth ：是否设置为连续的曲线图；
++ name ：为数据名称，与 lengend.data 里面的数据一一对应；
++ lineStyle ：为折线图的基本样式；
++ areaStyle ：为折线图包裹的区域的渐变色设置；
++ smooth ：是否设置为连续的曲线图；
 
 
 ```bash
@@ -180,4 +181,4 @@ legend: {
 lengend.data数组长度为多少，就有多少个数据需要展示。
 
 
-更多的的echarts配置用法可以查看官网。
+更多的的echarts配置用法可以查看官网 。
